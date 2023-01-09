@@ -5,34 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cricket</title>
-    <style>
-        .field{
-            border: 2px solid black;
-        }
-        .field:hover .bat{
-            transform: rotate(-60deg) ;
-            transform-origin: top right;
-            transition: transform 0.2s ease-in;
-        }
-        
-        .ball{
-            height: 50px;
-            width: 50px;
-            background-color: brown;
-            border-radius: 25px;
-            position: relative;
-            left: 515px;
-            transition: transform 1.5s ease-out 0.2s;
-        }
-        .field:hover .ball{
-            transform: translate(1200px, -300px);
-         
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
         <div class="field">
-            <img class="bat" src="images/bat.png" alt="">
+            <img class="bat" src="bat.png" alt="">
             <div class="ball">
 
             </div>
